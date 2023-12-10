@@ -1,2 +1,2 @@
-# LSTM Model
-Building a LSTM Model using Python 
+LSTM Model for Time Series Analysis & BTC Price Prediction 📈🕒
+

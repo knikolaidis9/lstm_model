@@ -1,0 +1,12 @@
+pip install tensorflow
+
+or if you have issues go directly with the version 
+
+pip unistall tensorflow
+pip install tensorflow==2.12.0
+
+
+You can also try this if you still have issues:
+
+pip install keras==2.12.0
+

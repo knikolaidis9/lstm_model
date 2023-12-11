@@ -3,7 +3,7 @@ This repository contains a Long Short-Term Memory (LSTM) model implemented in Py
 
 ## Overview ℹ️ ##
 
-The LSTM model is a type of recurrent neural network (RNN) that is well-suited for sequence prediction tasks like time series analysis. It can capture patterns and dependencies within time series data, making it particularly useful for forecasting future trends in cryptocurrency prices like Bitcoin. When we run the model we get 3 cvs files cryptocurrency, btc_predictions and btc_predicted. Cryptocurrency.csv contains all data cleaned and categorised, btc_predictions.csv contains our predictions from the model and btc_predicted.csv contains predictions with Date so that we will use it on visualization tool like Tableau/PowerBI. 
+The LSTM model is a type of recurrent neural network (RNN) that is well-suited for sequence prediction tasks like time series analysis. It can capture patterns and dependencies within time series data, making it particularly useful for forecasting future trends in cryptocurrency prices like Bitcoin. When we run the model we get 3 cvs files cryptocurrency, btc_predictions and btc_predicted. Cryptocurrency.csv contains all data cleaned and categorised, btc_predictions.csv contains our predictions from the model and btc_predicted.csv contains predictions with Date so that we will use it on visualization tools like Tableau/PowerBI. 
 
 ## How to Use 🚀 ##
 ## Dependencies 🛠️ ##

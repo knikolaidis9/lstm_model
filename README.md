@@ -1,5 +1,5 @@
 # LSTM Model for Time Series Analysis & BTC Price Prediction 📈🕒 #
-This repository contains a Long Short-Term Memory (LSTM) model implemented in Python for time series analysis, specifically for predicting Bitcoin (BTC) prices.
+This repository contains a Long Short-Term Memory (LSTM) model implemented in Python for time series analysis, specifically for predicting Bitcoin (BTC) prices. The IDE that I am using is Spyder. If you don't have Spyder installed you can download it directly from this website https://sourceforge.net/projects/winpython/. If you prefer other IDEs like Pycharm, VS Code etc. feel free to use them.
 
 ## Overview ℹ️ ##
 
@@ -17,8 +17,11 @@ The LSTM model is a type of recurrent neural network (RNN) that is well-suited f
 1. git https://github.com/knikolaidis9/lstm_model.git
    * cd lstm_model
 2. Install Dependancies:
-   * requirments.txt 
-3. Prepare Data:
+   * pip install tensorflow
+   * pip unistall tensorflow
+   * pip install tensorflow==2.12.0 if you have issues go directly with the version, but first unistall the tensorflow
+   * pip install keras==2.12.0 you can also try this if you still have issues.
+3. Prepare Data
    * Obtain historical BTC price data.
    * Preprocess the data (cleaning, normalization, splitting into training and testing sets) using the **prep_data.py** script.
 4. Train the LSTM Model:

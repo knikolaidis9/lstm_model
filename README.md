@@ -1,2 +1,42 @@
-LSTM Model for Time Series Analysis & BTC Price Prediction 📈🕒
+# LSTM Model for Time Series Analysis & BTC Price Prediction 📈🕒 #
+This repository contains a Long Short-Term Memory (LSTM) model implemented in Python for time series analysis, specifically for predicting Bitcoin (BTC) prices.
+
+## Overview ℹ️ ##
+
+The LSTM model is a type of recurrent neural network (RNN) that is well-suited for sequence prediction tasks like time series analysis. It can capture patterns and dependencies within time series data, making it particularly useful for forecasting future trends in cryptocurrency prices like Bitcoin.
+
+## How to Use 🚀 ##
+## Dependencies 🛠️ ##
+* Python (>=3.6)
+* TensorFlow (>=2.0)
+* Pandas
+* NumPy
+* Matplotlib
+
+## Steps to Use the Model: ##
+1. git https://github.com/knikolaidis9/lstm_model.git
+   * cd lstm_model
+2. Install Dependancies:
+   * requirments.txt 
+3. Prepare Data:
+   * Obtain historical BTC price data.
+   * Preprocess the data (cleaning, normalization, splitting into training and testing sets) using the **prep_data.py** script.
+4. Train the LSTM Model:
+   * Run the training script **KerasReg.py**, providing the prepared dataset.
+   * Tweak hyperparameters as needed for optimal performance.
+5. Make Predictions:
+   * Use the trained model to predict future BTC prices.
+   * Evaluate the model's performance and visualize predictions against actual prices.
+6. Fine-tuning and Improvement:
+   * Experiment with different architectures, hyperparameters, or additional features to improve prediction accuracy.
+
+## Why LSTM for BTC Price Prediction? 📊 ## 
+
+* Sequence Learning: LSTM can capture long-term dependencies and patterns in time series data, which is crucial for predicting BTC prices affected by various market factors.
+* Memory Retention: Its ability to retain information over extended periods enables better understanding of complex market behaviors.
+* Prediction Accuracy: LSTM's architecture often outperforms traditional models for time series forecasting tasks.
+
+## Contribution Guidelines 🤝 ##
+
+Contributions to enhance the model's performance or expand its capabilities are welcome! Feel free to open issues, submit pull requests, or share suggestions.
 
